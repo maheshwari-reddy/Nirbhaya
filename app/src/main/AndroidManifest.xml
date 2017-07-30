@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="maheshwari.developer.android.nirbhaya">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Activity.HomeScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.RegisterScreenActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.InstructionScreenActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.LoginScreenActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ForgotPasswordActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ManagingScreenActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.WrongEmailActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.RecoverPasswordActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.AddContactActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ViewContactActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ServiceHandlerActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.AlertActivity">
+        </activity>
+
+        <activity
+            android:name=".Activity.ChangePasswordActivity">
+        </activity>
+
+        <service android:name=".HelperClass.MyService" />
+
+    </application>
+
+</manifest>

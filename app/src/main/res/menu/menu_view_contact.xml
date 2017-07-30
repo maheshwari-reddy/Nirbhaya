@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="maheshwari.developer.android.nirbhaya.ViewContactActivity">
+
+    <item
+        android:id="@+id/delet_all"
+        android:title="Delete all"/>
+
+    <item
+        android:id="@+id/delete_one"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="Update"/>
+
+</menu>
